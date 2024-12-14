@@ -16,7 +16,7 @@ function playHighLightSound() {
 function flashPad(pad) {
     pad.style.opacity = 1;
     playHighLightSound();
-    setTimeout(() => (pad.style.opacity = 0.8), 300);
+    setTimeout(() => (pad.style.opacity = 0.5), 300);
 }
 
 function flashNewPad() {
